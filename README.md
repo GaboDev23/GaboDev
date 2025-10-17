@@ -1,5 +1,3 @@
-* GABODEV.
-
 # Portafolio Personal — GABODEV.
 
 Bienvenido a mi portafolio web.  
