@@ -278,6 +278,7 @@ a.btn::after,
     position: relative;
     overflow: hidden;
     height: 100dvh;
+    padding-top: calc(100px + 80px);
 }
 
 /* Contenido hero */
