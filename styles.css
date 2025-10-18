@@ -406,7 +406,7 @@ a.btn::after,
 /* Responsive */
 @media (max-width: 780px) {
     .hero {
-        top: 70px;
+        top: 100px;
     }
 
     .hero-content {
