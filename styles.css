@@ -41,6 +41,7 @@
 /* General Start */
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 80px;
 }
 
 body {
@@ -274,11 +275,12 @@ a.btn::after,
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 6rem 2rem 2rem;
+    padding: 0 10%;
     position: relative;
     overflow: hidden;
-    height: 100dvh;
+    min-height: 100dvh;
     padding-top: 80px;
+    box-sizing: border-box;
 }
 
 /* Contenido hero */
