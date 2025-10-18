@@ -432,6 +432,7 @@ a.btn::after,
     .image-container {
         width: 250px;
         height: 250px;
+        margin-bottom: 100px;
     }
 }
 /* Hero End */
@@ -628,6 +629,16 @@ a.btn::after,
     box-shadow: 0 0 15px rgba(0,188,212,0.5);
 }
 
+.project-card .project-links a {
+    display: block;
+    margin: 10px auto;
+    font-size: 1.5rem;
+}
+
+.project-card .project-links a:last-child {
+    width: 10%;
+}
+
 .load-more-container {
     text-align: center;
     margin-top: 40px;
@@ -730,33 +741,7 @@ a.btn::after,
     background-color: #1a1a1a;
 }
 
-.btn-contact {
-    padding: 15px;
-    border-radius: 8px;
-    font-weight: 600;
-    border: 2px solid #00bcd4;
-    background-color: #00bcd4;
-    color: #111;
-    cursor: pointer;
-    transition: color 0.4s ease;
-    position: relative;
-    overflow: hidden;
-}
 
-.btn-contact::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background-color: #0d0d0d;
-    transform: scaleX(0);
-    transform-origin: left;
-    transition: transform 0.4s ease;
-    z-index: -1;
-}
-
-.btn-contact:hover {
-    color: #00bcd4;
-}
 
 .btn-contact:hover::before {
     transform: scaleX(1);
@@ -787,6 +772,10 @@ a.btn::after,
 
     .contact p {
         font-size: 0.95rem;
+    }
+
+    .btn-contact {
+        margin: auto;
     }
 }
 /* Contact End */
